@@ -112,7 +112,6 @@ const required = value => {
           <>
              <Randomizebackground />
              <Slidebar /> 
-
               <Form onSubmit={this.handleRegister} ref={c => { this.form = c;}} className="signup-form position-absolute top-50 start-50 translate-middle z-3">
                 {!this.state.successful && (
                     <>

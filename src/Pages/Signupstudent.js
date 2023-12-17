@@ -106,7 +106,6 @@ const required = value => {
         );
       }
     }
-
     render() {
         return (
           <>
